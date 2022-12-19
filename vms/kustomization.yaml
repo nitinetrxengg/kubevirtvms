@@ -1,3 +1,4 @@
 resources:
-- rhel8.yaml
-- rhel8gitops.yaml
+- rhel8vmdcdr.yaml
+- rhel8service.yaml
+- rhel8route.yaml
