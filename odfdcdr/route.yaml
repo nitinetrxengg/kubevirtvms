@@ -1,0 +1,16 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  annotations:
+    openshift.io/host.generated: "true"
+  name: rhel8ocpvm
+  namespace: virtualization
+spec:
+  port:
+    targetPort: 80
+  to:
+    kind: Service
+    name: httpd-service-rhel8vmodf
+    weight: 100
+  wildcardPolicy: None
+status: {}
