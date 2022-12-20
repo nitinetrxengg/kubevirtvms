@@ -1,0 +1,14 @@
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: rhel85odfpvc
+  labels:
+    appname: rhel85dc
+spec:
+  accessModes:
+  - ReadWriteMany
+  storageClassName: ocs-storagecluster-ceph-rbd
+  resources:
+    requests:
+      storage: 12Gi
