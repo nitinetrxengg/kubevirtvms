@@ -15,12 +15,12 @@ metadata:
         }
       ]
   labels:
-    app: rhel8vm1
+    app: rhel8vmodf
     vm.kubevirt.io/template: rhel8-server-small
     vm.kubevirt.io/template.namespace: openshift
     vm.kubevirt.io/template.revision: "1"
     vm.kubevirt.io/template.version: v0.23.4
-  name: rhel8vm1
+  name: rhel8vmodf
   namespace: virtualization
 spec:
   running: true
@@ -31,7 +31,7 @@ spec:
         vm.kubevirt.io/os: rhel8
         vm.kubevirt.io/workload: server
       labels:
-        kubevirt.io/domain: rhel8vm1
+        kubevirt.io/domain: rhel8vmodf
         kubevirt.io/size: small
     spec:
       domain:
