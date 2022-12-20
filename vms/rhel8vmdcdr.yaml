@@ -44,6 +44,10 @@ spec:
           - disk:
               bus: virtio
             name: rootpvcdisk
+          - bootOrder: 2
+            disk:
+              bus: virtio
+            name: cloudinitdisk
           interfaces:
           - masquerade: {}
             name: default
