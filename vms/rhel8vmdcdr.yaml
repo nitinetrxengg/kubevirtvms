@@ -63,4 +63,11 @@ spec:
       - name: rootpvcdisk
         persistentVolumeClaim:
           claimName: rhel8vm1
+      - cloudInitNoCloud:
+          userData: |-
+            #cloud-config
+            user: cloud-user
+            password: redhat
+            chpasswd: { expire: False }
+        name: cloudinitdisk
 status: {}
