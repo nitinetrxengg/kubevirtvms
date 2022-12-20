@@ -1,2 +1,2 @@
 resources:
-- rhel8vmdcdr.yaml
+- vm.yaml
