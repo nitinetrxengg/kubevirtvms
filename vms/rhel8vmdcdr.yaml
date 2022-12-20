@@ -67,7 +67,7 @@ spec:
       volumes:
       - name: rootpvcdisk
         persistentVolumeClaim:
-          claimName: rhel8vm1
+          claimName: rhel85pvc
       - cloudInitNoCloud:
           userData: |-
             #cloud-config
