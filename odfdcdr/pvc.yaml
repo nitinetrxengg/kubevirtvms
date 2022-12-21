@@ -4,7 +4,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: pvcrhel85
   labels:
-    appname: rhel85dc
+    appname: rhel85dcdrpvc
 spec:
   accessModes:
   - ReadWriteMany
