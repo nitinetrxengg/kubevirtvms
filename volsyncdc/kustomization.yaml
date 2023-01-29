@@ -1,0 +1,5 @@
+resources:
+- volsyncpvc.yaml
+- deployment.yaml
+- svc.yaml
+- route.yaml
