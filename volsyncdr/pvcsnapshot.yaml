@@ -9,7 +9,7 @@ spec:
   dataSource:
     kind: VolumeSnapshot
     apiGroup: snapshot.storage.k8s.io
-    name: volsync-volsyncdemo-dst-20230131130615
+    name: volsync-volsyncdemo-dst-20230205142416
   storageClassName: ocs-storagecluster-cephfs
   volumeMode: Filesystem
   resources:
