@@ -1,0 +1,4 @@
+resources:
+- fedoravm.yaml
+- service.yaml
+- route.yaml
